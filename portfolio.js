@@ -14,7 +14,7 @@ humberger.addEventListener('click', () => {
   scrollStop.style.overflow = 'hidden';
   const listItem = document.querySelectorAll('a');
 
-  for (let i = 1; i < listItem.length; i += 1) {
+  for (let i = 1; i < listItem.length; i += 1) 
     listItem[i].style.display = 'flex';
     listItem[i].style.paddingBottom = '25px';
     listItem[i].style.paddingTop = '20px';
@@ -72,7 +72,7 @@ function implementProject() {
         <p>${project.projectDescription}</p>
       </div>
       <ul class="cardtechnology">
-        <li class="technology">${project.projectTechnologies[0]}</li>
+        <li class="technology">${project.projectTechnologies0]}</li>
         <li class="technology">${project.projectTechnologies[1]}</li>
         <li class="technology">${project.projectTechnologies[2]}</li>
       </ul>
